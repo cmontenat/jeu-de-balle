@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(214,49,205,1) 9%, rgba(175,82,206,1) 37%, rgba(43,205,232,1) 61%, rgba(0,210,253,1) 87%);
+}
+.navbar {
+    display: flex;
+    background: linear-gradient(0deg, rgba(148,50,217,1) 9%, rgba(244,60,209,1) 73%);
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+}
+
+.navbar a {
+    display: flex;
+    color: white;
+    justify-content: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
+h1 {
+    color: #ffffff;
+    background:#113a65;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(214,49,205,1) 9%, rgba(175,82,206,1) 37%, rgba(43,205,232,1) 61%, rgba(0,210,253,1) 87%);
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+#timer {
+    margin-top: 20px;
+}
+
+#endScreen {
+    display: none;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+.footer {
+    /* Styles pour le footer */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-button {
+    /* Styles pour le bouton */
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer-button:hover {
+    background-color: #0056b3;
+}
+

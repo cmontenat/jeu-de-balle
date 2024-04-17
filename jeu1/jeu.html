@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Balles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="https://montenat.asci-asso.fr/">Retour vers la page d'accueil</a>
+        </div>
+    </header>
+    <main>
+        <h1>Jeu de Balles</h1>
+        <button id="startButton">Démarrer</button>
+
+        <div id="gameArea">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div id="score">Score : <span id="scoreValue">0</span></div>
+
+        <div id="timer">Temps restant : <span id="timeLeft">60</span> secondes</div>
+
+        <div id="endScreen" class="hidden">
+            <h2>Temps écoulé !</h2>
+            <p>Score final : <span id="finalScore">0</span></p>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+
+</body>
+</html>
